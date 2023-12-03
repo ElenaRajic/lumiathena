@@ -1,0 +1,170 @@
+* {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(148, 147, 147);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.polja a{
+    text-decoration: none;
+}
+.polja a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.polja {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-top: 30px;
+}
+.naslov {
+    float:left;
+    font-size: 17px;
+}
+.lista {
+    list-style-type: none;
+}
+.navigation {
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.slika {
+    background-image: url("banner.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}
+.slika-naslov{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.podnaslov{
+    padding-top: 60px;
+    width: 70%;
+    margin: 0 auto;
+}
+.podnaslov h1{
+    text-align: center;
+}
+.kutija h2{
+    color: rgb(0, 0, 0);
+
+}
+.clanci{
+    margin: 0 auto;
+   width: 70%;
+   padding-top: 60px;
+}
+.clanci h1{
+    text-align: center;
+}
+.kutije{
+    display: flex;
+}
+.kutija img{
+    max-width: 90%;
+}
+.kutija h2, p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input{
+    width: 60%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form{
+    margin: auto;
+    margin-top: 50px;.
+}
+label,input{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 50%;
+    border: none;
+}
+textarea{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 50%;
+    border: none;
+}
+.btn{
+    background-color: rgb(36, 36, 36);
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 50px;
+    margin-left: 40%;
+}
+th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    height: 50px;
+   
+    
+}
+tr:nth-child(odd){
+    background-color: rgb(84, 84, 84);
+}
+tr:hover{
+    background-color: rgb(36, 36, 36);
+}
+tr{
+    height: 50px;
+    
+}
+.kutija a{
+    text-decoration: none;
+}
+.kutija a:hover{
+    color: rgb(255, 255, 255);
+}
+td{
+    height: 50px;
+}
+td a{
+    text-decoration: none;
+}
+td a:hover{
+    color:rgb(255, 255, 255)
+}
